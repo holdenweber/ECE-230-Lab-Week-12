@@ -11,6 +11,8 @@ In this lab, we learned how to make clock dividers from two types of counters.
 | Question 2 | Your answers to the question | 25% |
 | Question 3 | Your answers to the question | 25% |
 
+## Lab Summary
+
 ## Lab Questions
 
 ### 1 - Why does the Modulo Counter actually divide clocks by 2 * Count?
