@@ -22,8 +22,16 @@ the LED significantly slower.
 ## Lab Questions
 
 ### 1 - Why does the Modulo Counter actually divide clocks by 2 * Count?
+The modulo counter divides clocks by 2 * count because with each 
+consecutively chained flip-flop, it divides the clock cycle by a power of 
+2^n. Each flip-flop alters the clock cycle/divides it. 
 
 ### 2 - Why does the ring counter's output go to all 1s on the first clock cycle?
+The ring counter's output goes to all 1s on the first clock cycle because of a 
+delay with the flip-flops. The clock signal has to "ripple" through, and it 
+has some delay.
+
 
 ### 3 - What width of ring counter would you use to get to an output of ~1KHz?
-
+The width of the ring counter would need to be between 9 and 10, so 10 to get
+the output of ~1KHZ. 
